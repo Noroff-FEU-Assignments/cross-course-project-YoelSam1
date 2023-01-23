@@ -1,0 +1,388 @@
+:root {
+    --background-color: #E9EFFF;
+    --darkred-color: #FF0000;
+    --lightgray-color: #D1D1D1;
+    --dark-color: #000000;
+}
+
+/*all page style*/
+body {
+    background-color: var(--background-color);
+    margin: 0px;
+    padding: opx;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+/*mobile style*/
+@media only screen and (max-width:943px) {
+
+    .canoeing-1, .skiing-1, .exploring-1, .desktop-all, .c-1, .e-1, .s-1{
+        display: none;
+    }
+
+
+    body {
+        font-size: 15px;
+    }
+    .phone-icon {
+        margin-top: 15%;
+    }
+    
+    .figma-icon {
+        margin-left: 10%;
+        width: 3%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+    
+    .line-icon {
+        margin-left: 5%;
+        width: 4%;
+        margin-right: 53%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+
+    .wifi-icon {
+        width: 4%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+
+    .battery-icon {
+        margin-left: 5%;
+        width: 4%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+
+    .logo {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 65%;
+        margin-top: 5%;
+        margin-bottom: 1.5em;
+    }
+    
+    nav {
+        display: none;
+    }
+
+    .shop-menu {
+        float: left;
+        margin-left: 4%;
+    }
+
+    .hamburger-menu {
+        float: right;
+        margin-right: 4%;
+        
+    }
+    
+    .b-img {
+        margin-top: 0.3em;
+        width: 100%;
+    }
+    
+    .women {
+        float: left;
+        margin-left: 2em;
+        margin-top: 0.5em;
+        text-decoration: none;
+        color: var(--darkred-color);
+        font-size: 4vw;
+        border-radius: 28px;
+        background-color: var(--lightgray-color);
+        padding: 1px 20px;
+    }
+    
+    .men {
+        margin-top: 0.5em;
+        margin-right: 2em;
+        float: right;
+        text-decoration: none;
+        color: var(--darkred-color);
+        font-size: 4vw;
+        border-radius: 28px;
+        background-color: var(--lightgray-color);
+        padding: 1px 40px;
+    }
+    
+    .front-p {
+        text-align: center;
+        margin-top: 5em;
+        font-size: 3vw;
+        margin-bottom: 2em;
+    }
+    
+    .shopnow {
+        text-decoration: none;
+        background-color: var(--lightgray-color);
+        color: var(--darkred-color);
+        border-radius: 28px;
+        font-size: 4vw;
+        padding: 5px 10px;
+    }
+    .shopnow-2 {
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .phone-tag {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4em;
+        padding: 20px;
+        font-size: 4vw;
+    }
+    
+    .pic {
+        width: 87%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2em;
+    }
+    
+    footer section img {
+        width: 50%;
+    }
+
+    .info {
+        display: flex;
+        font-size: 2vw;
+        margin-left: 5%;
+        margin-top: 25%;
+        margin-bottom: 10%;
+        
+    }
+    
+    
+    .p-2 {
+        margin-left: -5.5%;
+        margin-top: 2.3em;
+        margin-right: 4%;
+        text-decoration: underline;
+    }
+    
+    .Email {
+        margin-left: 10%;
+        margin-top: 3em;
+    }
+    
+    .address {
+        margin-top: 3em;
+    }
+
+    .p-1 {
+        margin-left: -2%;
+    }
+
+    .Facebook-icon {
+        margin-left: 5%;
+        margin-top: 3em;
+    }
+
+    .Instagram-icon {
+        margin-top: 3em;
+    }
+    
+    .copyright {
+        text-align: center;
+        font-size: 2vw;
+    }
+
+
+
+}
+
+/*desktop style*/
+@media only screen and (min-width:944px) {
+    
+    .phone-tag, .mobil-menu-icon, .phone-icon, .canoeing, .exploring, .skiing {
+        display: none;
+    }
+    
+    
+    .logo {
+        padding:20PX;
+        width: 450px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav a {
+        display: block;
+        width: 100px;
+        padding: 20PX 41PX;
+        color: #000000;
+        font-size: 24px;
+        text-decoration: none;
+    }
+    
+    .b-img {
+        margin-top: 0.3em;
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    
+
+    .women {
+        
+        margin-right: auto;
+        margin-left: 15%;
+        text-decoration: none;
+        color: var(--darkred-color);
+        font-size: 3vw;
+        border-radius: 28px;
+        background-color: var(--lightgray-color);
+        padding: 5px 50px;
+    }
+    
+    .men {
+        float: right;
+        margin-right: 15%;
+        text-decoration: none;
+        color: var(--darkred-color);
+        font-size: 3vw;
+        border-radius: 28px;
+        background-color: var(--lightgray-color);
+        padding: 5px 50px;
+        margin-top: -1.4em;
+    }
+    
+    .front-p {
+        text-align: center;
+        margin-top: 5em;
+        margin-bottom: 4em;
+        font-size: 2.5vw;
+    }
+    
+    .shopnow {
+        text-decoration: none;
+        background-color: var(--lightgray-color);
+        color: var(--darkred-color);
+        border-radius: 28px;
+        font-size: 4vw;
+        padding: 10px 16px;
+        margin-bottom: 5em;
+    }
+
+    .shopnow-2 {
+        margin-top: 2em;
+        text-align: center;
+    }
+    
+    .canoeing-1 {
+        margin-top: 5em;
+        margin-right: auto;
+        display: flex;
+        padding-left: 20%;
+        font-size: 3vw;
+    }
+
+    .c-1 {
+        width: 46.4%;
+        padding-left: 3%;
+        margin-right: auto;
+        display: flex;
+        margin-top: 1em;
+    }
+
+    .exploring-1 {
+        margin-top: -2.2em;
+        margin-right: auto;
+        display: flex;
+        padding-left: 70%;
+        font-size: 3vw;
+    }
+
+    .e-1 {
+        width: 47.5%;
+        padding-right: 3%;
+        margin-left: auto;
+        display: flex;
+        margin-top: 1em;
+    }
+    
+    .skiing-1 {
+        margin-top: -2.2em;
+        margin-right: auto;
+        display: flex;
+        padding-left: 20%;
+        font-size: 3vw;
+    }
+
+    .s-1 {
+        width: 46.4%;
+        padding-left: 3%;
+        margin-right: auto;
+        display: flex;
+        margin-top: 1em;
+        margin-bottom: 5em;
+    }
+        
+    footer section img {
+        width: 50%;
+    }
+
+    .info {
+        display: flex;
+        font-size: 2vw;
+        margin-left: 5%;
+        margin-top: 25%;
+        margin-bottom: 10%;
+        
+    }
+    
+    
+    .p-2 {
+        margin-left: -5%;
+        margin-top: 2.3em;
+        margin-right: 4%;
+        text-decoration: underline;
+    }
+    
+    .Email {
+        margin-left: 10%;
+        margin-top: 3em;
+    }
+    
+    .address {
+        margin-top: 3em;
+    }
+
+    .p-1 {
+        margin-left: -2%;
+    }
+
+    .Facebook-icon {
+        margin-left: 5%;
+        margin-top: 3em;
+    }
+
+    .Instagram-icon {
+        margin-top: 3em;
+    }
+    
+    .copyright {
+        text-align: center;
+        font-size: 2vw;
+    }
+
+
+
+    
+}
