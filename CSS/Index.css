@@ -30,40 +30,41 @@ body {
     }
 
     main {
-        margin-top: 55%;
+        margin-top: 28%;
     }
 
     body {
         font-size: 15px;
     }
     .phone-icon {
-        margin-top: 10%;
+        margin-top: 6%;
     }
     
     .figma-icon {
         margin-left: 10%;
-        width: 3%;
+        width: 1%;
         margin-bottom: 5%;
         margin-top: -10%;
     }
     
     .line-icon {
         margin-left: 5%;
-        width: 4%;
+        width: 1%;
         margin-right: 53%;
         margin-bottom: 5%;
         margin-top: -10%;
     }
 
     .wifi-icon {
-        width: 4%;
+        width: 1%;
         margin-bottom: 5%;
         margin-top: -10%;
+        margin-left: 14%;
     }
 
     .battery-icon {
         margin-left: 5%;
-        width: 4%;
+        width: 1%;
         margin-bottom: 5%;
         margin-top: -10%;
     }
@@ -72,7 +73,7 @@ body {
         display: block;
         margin-right: auto;
         margin-left: auto;
-        width: 65%;
+        width: 25%;
         margin-top: -5%;
     }
     
@@ -82,13 +83,14 @@ body {
 
     .shop-menu {
         float: left;
-        margin-left: 4%;
+        margin-left: 10%;
+        width: 5%;
     }
 
     .hamburger-menu {
         float: right;
-        margin-right: 4%;
-        
+        margin-right: 10%;
+        width: 7%;
     }
     
     .b-img {
@@ -215,17 +217,17 @@ body {
     }
     
     main {
-        margin-top: 23em;
+        margin-top: 12em;
     }
+
     
     .logo {
         padding: 20PX;
-        width: 450px;
-        height: 250px;
-        display: block;
-        margin-left: auto;
+        margin-bottom: -2em;
+        width: 150px;
         margin-right: auto;
-        margin-bottom: -2.5%;
+        display: flex;
+        margin-left: auto;
     }
 
     nav ul {
@@ -243,6 +245,10 @@ body {
         color: #000000;
         font-size: 24px;
         text-decoration: none;
+    }
+
+    nav img {
+        width: 40%;
     }
     
     .b-img {
@@ -353,11 +359,10 @@ body {
 
     .info {
         display: flex;
-        font-size: 2vw;
+        font-size: 1.5vw;
         margin-left: 5%;
         margin-top: 25%;
         margin-bottom: 10%;
-        
     }
     
     
@@ -375,6 +380,7 @@ body {
     
     .address {
         margin-top: 3em;
+        margin-left: 5%;
     }
 
     .p-1 {
