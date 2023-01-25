@@ -13,7 +13,12 @@ body {
   font-style: normal;
 }
 
-
+.scrolling-top-style {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--background-color);
+}
 
 /*mobile style*/
 @media only screen and (max-width:943px) {
@@ -26,52 +31,57 @@ body {
     body {
         font-size: 15px;
     }
+    main {
+        margin-top: 20%;
+    }
+
     .phone-icon {
-        margin-top: 15%;
+        margin-top: 6%;
     }
     
     .figma-icon {
         margin-left: 10%;
-        width: 3%;
+        width: 1%;
         margin-bottom: 5%;
         margin-top: -10%;
     }
     
     .line-icon {
         margin-left: 5%;
-        width: 4%;
+        width: 1%;
         margin-right: 53%;
         margin-bottom: 5%;
         margin-top: -10%;
     }
 
     .wifi-icon {
-        width: 4%;
+        width: 1%;
         margin-bottom: 5%;
         margin-top: -10%;
+        margin-left: 14%;
     }
 
     .battery-icon {
         margin-left: 5%;
-        width: 4%;
+        width: 1%;
         margin-bottom: 5%;
         margin-top: -10%;
     }
 
     .phone-logo {
-        margin-left: 3%;
-        width: 40%;
-        margin-top: 5%;
+        margin-left: 15%;
+        width: 20%;
+        margin-top: -3%;
     }
 
     .shop-menu {
-        margin-left: 30%;
-        width: 6%;
+        margin-left: 35%;
+        width: 5%;
         margin-bottom: 1%;
     }
 
     .hamburger-menu {
-        width: 8%;
+        width: 7%;
         margin-left: 4%;
     }
 

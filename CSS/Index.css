@@ -212,16 +212,16 @@ body {
 /*desktop style*/
 @media only screen and (min-width:944px) {
     
-    .phone-tag, .mobil-menu-icon, .phone-icon, .canoeing, .exploring, .skiing {
+    .phone-tag, .mobil-menu-icon, .phone-icon, .canoeing, .exploring, .skiing, .logo {
         display: none;
     }
     
     main {
-        margin-top: 12em;
+        margin-top: 5em;
     }
 
     
-    .logo {
+    .logo-2 {
         padding: 20PX;
         margin-bottom: -2em;
         width: 150px;
@@ -241,7 +241,7 @@ body {
     nav a {
         display: block;
         width: 100px;
-        padding: 20PX 41PX;
+        padding: 20PX 23.1PX;
         color: #000000;
         font-size: 24px;
         text-decoration: none;
