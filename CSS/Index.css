@@ -6,6 +6,14 @@
 }
 
 /*all page style*/
+
+.scrolling-top-style {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--background-color);
+}
+
 body {
     background-color: var(--background-color);
     margin: 0px;
@@ -21,12 +29,15 @@ body {
         display: none;
     }
 
+    main {
+        margin-top: 55%;
+    }
 
     body {
         font-size: 15px;
     }
     .phone-icon {
-        margin-top: 15%;
+        margin-top: 10%;
     }
     
     .figma-icon {
@@ -62,8 +73,7 @@ body {
         margin-right: auto;
         margin-left: auto;
         width: 65%;
-        margin-top: 5%;
-        margin-bottom: 1.5em;
+        margin-top: -5%;
     }
     
     nav {
@@ -82,11 +92,10 @@ body {
     }
     
     .b-img {
-        margin-top: 0.3em;
         width: 100%;
     }
     
-    .women {
+    .women { 
         float: left;
         margin-left: 2em;
         margin-top: 0.5em;
@@ -205,14 +214,18 @@ body {
         display: none;
     }
     
+    main {
+        margin-top: 23em;
+    }
     
     .logo {
-        padding:20PX;
+        padding: 20PX;
         width: 450px;
         height: 250px;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: -2.5%;
     }
 
     nav ul {
@@ -349,14 +362,14 @@ body {
     
     
     .p-2 {
-        margin-left: -5%;
+        margin-left: -3%;
         margin-top: 2.3em;
-        margin-right: 4%;
+        margin-right: 10%;
         text-decoration: underline;
     }
     
     .Email {
-        margin-left: 10%;
+        margin-left: 15%;
         margin-top: 3em;
     }
     
