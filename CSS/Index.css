@@ -220,12 +220,14 @@ body {
         margin-top: 5em;
     }
 
-    
-    
-    .logo-2 {
+    .desktop-logo {
         width: 150px;
         margin-top: 15%;
     }
+
+    .icon-img {
+        width: 40%;
+      }
 
     nav ul {
         padding: 0;
@@ -237,15 +239,11 @@ body {
     }
     nav a {
         display: block;
-        width: 100px;
-        padding: 20PX 23.1PX;
         color: #000000;
-        font-size: 24px;
         text-decoration: none;
-    }
-
-    nav img {
-        width: 40%;
+        padding-left: 26.7px;
+        text-align: center;
+        padding-right: 26.8px;
     }
     
     .b-img {
@@ -359,7 +357,7 @@ body {
         font-size: 1.5vw;
         margin-left: 5%;
         margin-top: 25%;
-        margin-bottom: 10%;
+        margin-bottom: 10%; 
     }
     
     
