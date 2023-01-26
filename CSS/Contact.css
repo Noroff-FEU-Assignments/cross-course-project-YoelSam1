@@ -20,6 +20,10 @@ body {
     background-color: var(--background-color);
 }
 
+.S {
+    color: var(--darkred-color);
+}
+
 /*mobile style*/
 @media only screen and (max-width:943px) {
 
