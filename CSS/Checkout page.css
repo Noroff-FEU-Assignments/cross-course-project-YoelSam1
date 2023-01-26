@@ -361,7 +361,7 @@ body {
     }
 
     .card-icon-style-2 {
-        margin-left: 10%;
+        margin-left: 15%;
     }
 
     .accept-style-2 {
@@ -371,7 +371,9 @@ body {
     }
 
     .pay-2 {
-        width: 10%;
+        width: 5%;
+        padding-left: 1%;
+        padding-right: 1%;
     }
 
     .form-2 {
