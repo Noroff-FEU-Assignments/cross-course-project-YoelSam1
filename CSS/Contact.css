@@ -8,7 +8,7 @@
 body {
   background-color: var(--background-color);
   margin: 0px;
-  padding: opx;
+  padding: 0px;
   font-family: 'Montserrat';
   font-style: normal;
 }
@@ -163,7 +163,7 @@ body {
         background-color: #d2c3c3;
         border-radius: 28px;
         padding: 2%;
-        color: red;
+        color: var(--darkred-color);
     }
 
     .submit {
