@@ -221,13 +221,10 @@ body {
     }
 
     
+    
     .logo-2 {
-        padding: 20PX;
-        margin-bottom: -2em;
         width: 150px;
-        margin-right: auto;
-        display: flex;
-        margin-left: auto;
+        margin-top: 15%;
     }
 
     nav ul {

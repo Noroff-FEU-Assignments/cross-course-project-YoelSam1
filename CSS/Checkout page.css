@@ -274,12 +274,12 @@ body {
     }
     
     .desktop-logo {
-        width: 350px;
+        width: 150px;
         margin-top: 15%;
     }
 
     .icon-img {
-        width: 70px;
+        width: 40%;
       }
 
     nav ul {
@@ -294,11 +294,11 @@ body {
         display: block;
         color: #000000;
         text-decoration: none;
-        padding-left: 18.3px;
+        padding-left: 26.7px;
         text-align: center;
-        padding-right: 18.5px;
+        padding-right: 26.8px;
     }
-
+    
     .Grey-skiing-Jacket-2 {
         width: 23%;
         background-color: white;
