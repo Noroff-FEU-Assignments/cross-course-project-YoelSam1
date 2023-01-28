@@ -20,7 +20,7 @@ body {
     background-color: var(--background-color);
 }
 
-
+ 
 
 /*mobile style*/
 @media only screen and (max-width:943px) {
@@ -35,7 +35,7 @@ body {
     }
 
     main {
-        margin-top: 20%;
+        margin-top: 23%;
     }
 
     .phone-icon {
@@ -96,7 +96,7 @@ body {
     .about {
         text-align: center;
         margin-top: 15%;
-        font-size: 8vw;
+        font-size: 6vw;
     }
 
     .p-box {
@@ -207,7 +207,7 @@ body {
 
     .about-2 {
         text-align: center;
-        font-size: 7vw;
+        font-size: 5vw;
     }
 
     .p-box-2 {
