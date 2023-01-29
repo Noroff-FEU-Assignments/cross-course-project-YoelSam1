@@ -1,6 +1,6 @@
 :root {
     --background-color: #E9EFFF;
-    --darkred-color: #D01A1A;
+    --darkred-color: #9D1B1B;
     --lightgray-color: #D1D1D1;
     --dark-color: #000000;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 .s {
-    color: var(--darkred-color);
+    color: #9F1212;
 }
 
 /*mobile style*/
