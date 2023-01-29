@@ -108,7 +108,7 @@ body {
         color: var(--darkred-color);
         font-size: 4vw;
         border-radius: 28px;
-        background-color: var(--lightgray-color);
+        background-color: #992626;
         padding: 1px 20px;
     }
     
