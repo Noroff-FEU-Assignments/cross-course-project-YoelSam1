@@ -29,6 +29,7 @@ body {
         display: none;
     }
 
+    
     main {
         margin-top: 28%;
     }
@@ -83,8 +84,9 @@ body {
 
     .shop-menu {
         float: left;
-        margin-left: 10%;
+        margin-left: 13%;
         width: 5%;
+        margin-top: -7%;
     }
 
     .hamburger-menu {
@@ -95,6 +97,7 @@ body {
     
     .b-img {
         width: 100%;
+        margin-top: -4%;
     }
     
     .women { 
