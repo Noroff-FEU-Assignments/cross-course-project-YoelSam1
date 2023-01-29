@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/About.css">
+    <link rel="stylesheet" href="../CSS/Meny.css">
 </head>
 <body>
     <header class="scrolling-top-style">
@@ -26,8 +27,34 @@
 
                   <a href="../HTML/Checkoutpage.html"><img src="../Images/shop-iconsmall.png" alt="shop-icon" class="shop-menu"></a>
 
-                  <a href="../HTML/Meny.html"><img src="../Images/hamburger-icon.png" alt="hamburger-icon" class="hamburger-menu"> 
-                  </a>
+                  <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                
+                    <ul class="menu__box">
+                        
+                        <img src="../Images/logo.png" alt="logo" class="logo-menu">
+
+                        <li>
+                            <a href="../Index.html"><img src="../Images/HOME.png" alt="home-icon" class="icon"></a>
+                            <a href="../Index.html" class="menu__item">Home</a>
+                        </li>
+                        <li>
+                            <a href="Listofjacket.html"><img src="../Images/product.png" alt="product-icon" class="icon"> </a>
+                            <a href="Listofjacket.html" class="menu__item">Product</a>
+                        </li>
+                        <li>
+                            <a href="About.html"><img src="../Images/ABOUT.png" alt="about-icon" class="icon"> </a>
+                            <a href="About.html" class="menu__item">About</a>
+                        </li>
+                        <li>
+                            <a href="Contact.html"><img src="../Images/contact.png" alt="contact-icon" class="icon">
+                             <a href="Contact.html" class="menu__item">Contact</a>   
+                        </li>
+                    </ul>
+                </div>
                   <hr class="line">
               </div>
       </section>
