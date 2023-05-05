@@ -6,13 +6,16 @@ const params = new URLSearchParams (querystring);
 
 const id= params.get ("id")
 
-async function fetchGame() {
+
+const url = "https://api.noroff.dev/api/v1/rainy-days/" + id;
+
+async function fetchproducts() {
 
     try {
         const response = await fetch(url);
         const details = await response.json();
 
-        console.log(details);
+        console.log("details",details);
 
         createHtml(details);
       
@@ -24,24 +27,28 @@ async function fetchGame() {
     
 }
 
-fetchProducts("https://api.noroff.dev/api/v1/rainy-days"/ + id);
+fetchproducts();
 
 function createHtml(details) {
-    detailContainer.innerHTML = `<div class="product">
-            
+    detailContainer.innerHTML = `
 
-    <a href="Jacketspecificpage.html?id=${products.id}" class="img"><img src="${response[i].image}" alt="" class="product-img" /></a>
-    
-    <div class="product-content">
-    <h2 class="product-title">${
-      title.lenght > 18 ? title.substring(0, 18).concat("  ...") : title
-    }</h2>
-    <p class="product-sizes">Size - ${response[i].sizes}</p>
-    <div class="product-price-container">
-        <h3 class="product-price">$ ${response[i].price}</h3>
-        <a href="Checkoutpage.html" data-productId="${
-          response[i].id
-        }" class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></a>
-    </div>
-    </div>
-</div>`;
+        <div class="product">
+            <div class="img-container">
+             <img src="${details.image}" alt="" class="product-img" /></a>
+            </div>
+            
+            <div class="product-content">
+                <h2 class="product-title">${details.title }</h2>
+                <p class="product-sizes">Size - ${details.sizes.join()}</p>
+                <p>Description - ${details.description}</p>
+                <div class="product-price-container">
+                    <h3 class="product-price">$ ${details.price}</h3>
+                    <a href="Checkoutpage.html" data-productId="${
+                    details.id
+                    }" class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </div>
+      </div>
+    `
+
+ }

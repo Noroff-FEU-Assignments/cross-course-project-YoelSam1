@@ -1,10 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
   let products = document.querySelector(".products");
+ 
   async function fetchProducts(url) {
     try {
       let data = await fetch(url);
       let response = await data.json();
-      console.log(response);
+      console.log("RESPONSE",response);
 
       for (let i = 0; i < response.length; i++) {
         let title = response[i].title;
@@ -12,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="product">
             
 
-            <a href="Jacketspecificpage.html?id=${products.id}" class="img"><img src="${response[i].image}" alt="" class="product-img" /></a>
+            <a href="Jacketspecificpage.html?id=${response[i].id}" class="img"><img src="${response[i].image}" alt="" class="product-img" /></a>
             
             <div class="product-content">
             <h2 class="product-title">${
