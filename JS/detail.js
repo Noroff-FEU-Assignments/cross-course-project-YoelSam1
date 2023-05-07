@@ -1,3 +1,14 @@
+window.addEventListener("load", () => {
+    const loader = document.querySelector(".loader");
+  
+    loader.classList.add("loader-hidden");
+  
+    loader.addEventListener("transitionend", () => {
+      document.body.removeChild("loader");
+    })
+  })
+
+
 const detailContainer = document.querySelector(".product-details");
 
 const querystring = document.location.search;
@@ -15,19 +26,24 @@ async function fetchproducts() {
         const response = await fetch(url);
         const details = await response.json();
 
-        console.log("details",details);
+        
 
         createHtml(details);
       
     }
     catch(error) {
-        console.log(error);
+        
         detailContainer.innerHTML = message("error", error);
     }
     
 }
 
 fetchproducts();
+
+
+
+
+
 
 function createHtml(details) {
     detailContainer.innerHTML = `

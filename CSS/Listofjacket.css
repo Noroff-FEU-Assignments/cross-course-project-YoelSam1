@@ -86,6 +86,44 @@ main {
   font-size: 2.5rem;
 }
 
+.loader {
+  position: fixed;  
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.95s, visibility 0.95s;
+
+}
+
+.loader-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #dddddd;
+  border-top-color: red;
+  border-radius: 50%;
+  animation: loading 0.95s ease infinite;
+}
+
+
+@keyframes loading {
+  from{
+      transform: rotate(0turn);
+  }
+  to{
+      transform: rotate(1turn);
+  }
+}
+
 /*mobile style*/
 @media only screen and (max-width: 943px) {
   .desktop-img,

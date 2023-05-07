@@ -1,3 +1,13 @@
+window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  loader.classList.add("loader-hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild("loader");
+  })
+})
+
 document.addEventListener("DOMContentLoaded", function () {
   let products = document.querySelector(".products");
  
@@ -5,7 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
     try {
       let data = await fetch(url);
       let response = await data.json();
-      console.log("RESPONSE",response);
+      
+      const loading = document.querySelector(".loader")
 
       for (let i = 0; i < response.length; i++) {
         let title = response[i].title;
@@ -30,9 +41,12 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
       `;
       }
-    } catch (err) {
-      console.log(err);
+    } catch (error) {
+      
     }
   }
   fetchProducts("https://api.noroff.dev/api/v1/rainy-days");
 });
+
+
+

@@ -47,8 +47,8 @@ body {
     justify-content: center;
     gap:100px;
   }
-  .product .img-container {
-    flex:0.4;
+  .product {
+    flex:0.3;
     padding:50px;
     
   }
@@ -58,8 +58,61 @@ body {
 }
 
 img {
-    width: 100%;
+    width: 80%;
 }
+
+
+.loader {
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.95s, visibility 0.95s;
+
+}
+
+.loader-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-top-color: red;
+    border-radius: 50%;
+    animation: loading 0.95s ease infinite;
+}
+
+
+@keyframes loading {
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*mobile style*/
