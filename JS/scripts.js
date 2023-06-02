@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <p class="product-sizes">Size - ${response[i].sizes}</p>
             <div class="product-price-container">
                 <h3 class="product-price">$ ${response[i].price}</h3>
-                <a href="../HTML/Checkoutpage.html" <span>data-productId="${response[i].id}"</span> class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></a>
+                <a href="Checkoutpage.html" <span>data-productId="${response[i].id}"</span> class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></a>
             </div>
             </div>
       </div>
