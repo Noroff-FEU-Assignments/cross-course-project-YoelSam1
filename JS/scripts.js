@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="product">
             
 
-            <a href="Jacketspecificpage.html?id=${response[i].id}" class="img"><img src="${response[i].image}" alt="" class="product-img" /></a>
+            <a href="Jacketspecificpage.html?id=${response[i].id}" class="img"><img src="${response[i].image}" alt="img" class="product-img" /></a>
             
             <div class="product-content">
             <h2 class="product-title">${
