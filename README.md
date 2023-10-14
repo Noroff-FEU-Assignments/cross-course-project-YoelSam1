@@ -52,5 +52,5 @@ git clone git@github.com:NoroffFEU/portfolio-1-example.git
 2. Website Live Demo:
 
 ```
-    https://calm-tanuki-e4dc43.netlify.app/
+https://calm-tanuki-e4dc43.netlify.app/
 ```
