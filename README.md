@@ -40,5 +40,7 @@ In essence, this simple e-commerce website project is a practical demonstration 
 
 # Built With
 
-- [HTML]
-- [CSS]
+- HTML
+- CSS
+
+### Installing
