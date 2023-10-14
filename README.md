@@ -2,7 +2,7 @@
 
 ![image](/Images/cross-course-project.png)
 
-The "Rainyday E-commerce Website" is a web development project that demonstrates the fundamental use of HTML and CSS to create an online shopping platform. Its primary purpose is to provide a user-friendly and visually appealing interface for e-commerce activities, showcasing products and enabling customers to browse, select, and purchase items.
+The "Rainyday E-commerce Website" is a web development project that demonstrates the fundamental use of HTML and CSS to create an online shopping platform.
 
 # Description
 
