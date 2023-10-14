@@ -2,9 +2,9 @@
 
 ![image](/Images/cross-course-project.png)
 
-The "Rainyday E-commerce Website" is a web development project that demonstrates the fundamental use of HTML and CSS to create an online shopping platform.
-
 # Description
+
+The "Rainyday E-commerce Website" is a web development project that demonstrates the fundamental use of HTML and CSS to create an online shopping platform.
 
 In essence, this simple e-commerce website project is a practical demonstration of how HTML and CSS can be effectively utilized to create an online shopping platform. It strives to offer a rich and interactive shopping experience, ensuring that users can easily explore products, add them to their cart, and proceed to checkout. Furthermore, it acts as a valuable resource for individuals looking to learn about web development and how these technologies contribute to building a functional and visually appealing e-commerce website.
 
