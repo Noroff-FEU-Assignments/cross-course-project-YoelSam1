@@ -37,3 +37,8 @@ In essence, this simple e-commerce website project is a practical demonstration 
 6. Educational Resource:
 
 - Beyond its practical use, this project serves as an educational resource for aspiring web developers. It showcases how HTML and CSS are used in the development of e-commerce websites and how these technologies contribute to an enhanced user experience.
+
+# Built With
+
+- [HTML]
+- [CSS]
