@@ -2,7 +2,7 @@
 
 ![image](/Images/cross-course-project.png)
 
-# Description
+## Description
 
 The "Rainydays E-commerce Website" is a web development project that demonstrates the fundamental use of HTML and CSS to create an online shopping platform.
 
@@ -38,9 +38,19 @@ In essence, this simple e-commerce website project is a practical demonstration 
 
 - Beyond its practical use, this project serves as an educational resource for aspiring web developers. It showcases how HTML and CSS are used in the development of e-commerce websites and how these technologies contribute to an enhanced user experience.
 
-# Built With
+## Built With
 
 - HTML
 - CSS
 
 ### Installing
+
+```bash
+git clone git@github.com:NoroffFEU/portfolio-1-example.git
+```
+
+2. Website Live Demo:
+
+```
+    https://calm-tanuki-e4dc43.netlify.app/
+```
