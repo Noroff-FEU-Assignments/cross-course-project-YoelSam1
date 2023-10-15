@@ -54,3 +54,7 @@ git clone git@github.com:NoroffFEU/portfolio-1-example.git
 ```
 https://calm-tanuki-e4dc43.netlify.app/
 ```
+
+## Contact
+
+[My Gmail.com](Yoelsamsom21@gmail.com)
