@@ -46,7 +46,7 @@ In essence, this simple e-commerce website project is a practical demonstration 
 ### Installing
 
 ```bash
-git https://github.com/Noroff-FEU-Assignments/cross-course-project-YoelSam1.git
+https://github.com/Noroff-FEU-Assignments/cross-course-project-YoelSam1.git
 ```
 
 2. Website Live Demo:
