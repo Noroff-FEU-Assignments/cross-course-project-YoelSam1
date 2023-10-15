@@ -57,4 +57,4 @@ https://calm-tanuki-e4dc43.netlify.app/
 
 ## Contact
 
-[My Gmail.com](Yoelsamsom21@gmail.com)
+My email address: (Yoelsamsom21@gmail.com)
