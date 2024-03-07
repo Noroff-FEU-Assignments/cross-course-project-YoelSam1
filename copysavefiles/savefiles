@@ -1,0 +1,452 @@
+      <section class="mobile-style">
+        <div>
+          <h1 class="jacket-tag">Jacket's</h1>
+
+          <!--Grey-skiing-Jacket-->
+          <a href="../HTML/Jacketspecificpage.html">
+            <img
+              src="../Images/GreyskiingJacket.png"
+              alt="Grey-skiing-Jacket"
+              class="Grey-skiing-Jacket"
+          /></a>
+
+          <!--winter-hiking-Jacket-->
+          <img
+            src="../Images/winterhikingJacket.png"
+            alt="winter-hiking-Jacket"
+            class="winter-hiking-Jacket"
+          />
+        </div>
+        <section class="p-inline-styl">
+          <div class="right">
+            <p>Grey skiing Jacket</p>
+            <p class="spacing">Size - S M L</p>
+            <p>$ 600</p>
+
+            <a href="../HTML/Checkoutpage.html"
+              ><img
+                src="../Images/AddtoShopping.png"
+                alt="add-shopping-icon"
+                class="addshop-icon"
+            /></a>
+          </div>
+
+          <div class="left">
+            <p>winter hiking Jacket</p>
+            <p class="spacing">Size - S M L</p>
+            <p>$ 700</p>
+
+            <img
+              src="../Images/AddtoShopping.png"
+              alt="add-shopping-icon"
+              class="addshop-icon"
+            />
+          </div>
+        </section>
+        <div>
+          <!--Black-skiing-Jacket-->
+          <a href="#">
+            <img
+              src="../Images/BlackskiingJacket.png"
+              alt="Black-skiing-Jacket"
+              class="Black-skiing-Jacket"
+          /></a>
+
+          <!--Grey-Light-Jacket-->
+          <a href="#">
+            <img
+              src="../Images/GreyLightJacket.png"
+              alt="Grey-Light-Jacket"
+              class="Grey-Light-Jacket"
+          /></a>
+        </div>
+
+        <section class="p-inline-styl">
+          <div class="right">
+            <p>Black skiing Jacket</p>
+            <p class="spacing">Size - S M L</p>
+            <p>$ 600</p>
+
+            <img
+              src="../Images/AddtoShopping.png"
+              alt="add-shopping-icon"
+              class="addshop-icon"
+            />
+          </div>
+
+          <div class="left">
+            <p>Grey Light Jacket</p>
+            <p class="spacing">Size - S M L</p>
+            <p>$ 300</p>
+
+            <img
+              src="../Images/AddtoShopping.png"
+              alt="add-shopping-icon"
+              class="addshop-icon"
+            />
+          </div>
+        </section>
+
+        <div>
+          <!--Camping-Jacket-->
+          <a href="#">
+            <img
+              src="../Images/CampingJacket.png"
+              alt="Camping-Jacket"
+              class="Camping-Jacket"
+          /></a>
+
+          <!--Red-Light-Jacket-->
+          <a href="#">
+            <img
+              src="../Images/RedLightJacket.png"
+              alt="Red-Light-Jacket"
+              class="Red-Light-Jacket"
+          /></a>
+        </div>
+
+        <section class="p-inline-styl">
+          <div class="right">
+            <p>Camping Jacket</p>
+            <p class="spacing">Size - S M L</p>
+            <p>$ 200</p>
+
+            <img
+              src="../Images/AddtoShopping.png"
+              alt="add-shopping-icon"
+              class="addshop-icon"
+            />
+          </div>
+
+          <div class="left">
+            <p>Red Light Jacket</p>
+            <p class="spacing">Size - S M L</p>
+            <p>$ 350</p>
+
+            <img
+              src="../Images/AddtoShopping.png"
+              alt="add-shopping-icon"
+              class="addshop-icon"
+            />
+          </div>
+        </section>
+
+        <div>
+          <!--Grey-Jacketed-->
+          <a href="#">
+            <img
+              src="../Images/GreyJacketed.png"
+              alt="Grey-Jacketed"
+              class="Grey-Jacketed"
+          /></a>
+        </div>
+
+        <section class="p-inline-styl">
+          <div class="right">
+            <p>Grey Jacketed</p>
+            <p class="spacing">Size - S M L</p>
+            <p>$ 500</p>
+
+            <img
+              src="../Images/AddtoShopping.png"
+              alt="add-shopping-icon"
+              class="addshop-icon"
+            />
+          </div>
+        </section>
+      </section>
+      <!--end of mobile-section-->
+
+      <section class="desktop-img">
+        <div>
+          <h1 class="jacket-tag-2">Jacket's</h1>
+
+          <!--Grey-skiing-Jacket-->
+          <a href="../HTML/Jacketspecificpage.html"
+            ><img
+              src="../Images/GreyskiingJacket.png"
+              alt="Grey-skiing-Jacket"
+              class="Grey-skiing-Jacket-1"
+          /></a>
+
+          <div class="right">
+            <p>Grey skiing Jacket</p>
+            <p class="spacing">Size - S M L</p>
+            <p>$ 600</p>
+
+            <a href="../HTML/Checkoutpage.html"
+              ><img
+                src="../Images/AddtoShopping.png"
+                alt="add-shopping-icon"
+                class="addshop-icon"
+            /></a>
+          </div>
+        </div>
+
+        <div>
+          <!--winter-hiking-Jacket-->
+          <img
+            src="../Images/winterhikingJacket.png"
+            alt="winter-hiking-Jacket"
+            class="winter-hiking-Jacket-2"
+          />
+
+          <div class="left">
+            <p>winter hiking Jacket</p>
+            <p class="spacing">Size - S M L</p>
+            <p>$ 700</p>
+
+            <img
+              src="../Images/AddtoShopping.png"
+              alt="add-shopping-icon"
+              class="addshop-icon"
+            />
+          </div>
+        </div>
+
+        <div>
+          <!--Black-skiing-Jacket-->
+          <a href="#">
+            <img
+              src="../Images/BlackskiingJacket.png"
+              alt="Black-skiing-Jacket"
+              class="Black-skiing-Jacket-1"
+          /></a>
+
+          <div class="right">
+            <p>Black skiing Jacket</p>
+            <p class="spacing">Size - S M L</p>
+            <p>$ 600</p>
+
+            <img
+              src="../Images/AddtoShopping.png"
+              alt="add-shopping-icon"
+              class="addshop-icon"
+            />
+          </div>
+        </div>
+
+        <div>
+          <!--Grey-Light-Jacket-->
+          <a href="#">
+            <img
+              src="../Images/GreyLightJacket.png"
+              alt="Grey-Light-Jacket"
+              class="Grey-Light-Jacket-2"
+          /></a>
+
+          <div class="left">
+            <p>Grey Light Jacket</p>
+            <p class="spacing">Size - S M L</p>
+            <p>$ 300</p>
+
+            <img
+              src="../Images/AddtoShopping.png"
+              alt="add-shopping-icon"
+              class="addshop-icon"
+            />
+          </div>
+        </div>
+
+        <div>
+          <!--Camping-Jacket-->
+          <a href="#">
+            <img
+              src="../Images/CampingJacket.png"
+              alt="Camping-Jacket"
+              class="Camping-Jacket-1"
+          /></a>
+
+          <div class="right">
+            <p>Camping Jacket</p>
+            <p class="spacing">Size - S M L</p>
+            <p>$ 200</p>
+
+            <img
+              src="../Images/AddtoShopping.png"
+              alt="add-shopping-icon"
+              class="addshop-icon"
+            />
+          </div>
+        </div>
+
+        <div>
+          <!--Red-Light-Jacket-->
+          <a href="#">
+            <img
+              src="../Images/RedLightJacket.png"
+              alt="Red-Light-Jacket"
+              class="Red-Light-Jacket-2"
+          /></a>
+
+          <div class="left">
+            <p>Red Light Jacket</p>
+            <p class="spacing">Size - S M L</p>
+            <p>$ 350</p>
+
+            <img
+              src="../Images/AddtoShopping.png"
+              alt="add-shopping-icon"
+              class="addshop-icon"
+            />
+          </div>
+        </div>
+
+        <div>
+          <!--Grey-Jacketed-->
+          <a href="#">
+            <img
+              src="../Images/GreyJacketed.png"
+              alt="Grey-Jacketed"
+              class="Grey-Jacketed-1"
+          /></a>
+
+          <div class="right">
+            <p>Grey Jacketed</p>
+            <p class="spacing">Size - S M L</p>
+            <p>$ 500</p>
+
+            <img
+              src="../Images/AddtoShopping.png"
+              alt="add-shopping-icon"
+              class="addshop-icon"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--end of main section-->
+
+
+
+
+
+
+
+
+
+
+    <section class="phone-style">
+      <div>
+        <div>
+          <a href="../HTML/Listofjacket.html"
+            ><img
+              src="../Images/exite-icon.png"
+              alt="exite-icon"
+              class="exite-icon"
+          /></a>
+        </div>
+
+        <!--Grey-skiing-Jacket-->
+        <img
+          src="../Images/GreyskiingJacket.png"
+          alt="Grey-skiing-Jacket"
+          class="Grey-skiing-Jacket"
+        />
+      </div>
+
+      <div class="jacket-name">
+        <h1>Grey Skiing Jacket</h1>
+      </div>
+
+      <div class="jacket-info">
+        <p>Light skiing jacket,</p>
+        <p>Comfortable and warm.</p>
+      </div>
+
+      <div class="size and price">
+        <p>Size - M</p>
+        <p>$ 600</p>
+      </div>
+
+      <div class="shop">
+        <a href="../HTML/Checkoutpage.html"
+          ><img
+            src="../Images/addtoshopping.png"
+            alt="addshop-icon"
+            class="addtoshop"
+        /></a>
+      </div>
+    </section>
+
+    <section class="desktop-style">
+      <div>
+        <div>
+          <a href="../HTML/Listofjacket.html"
+            ><img
+              src="../Images/exite-icon.png"
+              alt="exite-icon"
+              class="exite-icon-2"
+          /></a>
+        </div>
+
+        <!--Grey-skiing-Jacket-->
+        <img
+          src="../Images/GreyskiingJacket.png"
+          alt="Grey-skiing-Jacket"
+          class="Grey-skiing-Jacket-2"
+        />
+      </div>
+      <section class="hight-level">
+        <div class="jacket-name-2">
+          <h1>Grey Skiing Jacket</h1>
+        </div>
+
+        <div class="jacket-info-2">
+          <p>Light skiing jacket, Comfortable</p>
+          <p class="solo-style">and warm.</p>
+        </div>
+
+        <div>
+          <p class="size">Size - M</p>
+          <p class="price">$ 600</p>
+        </div>
+
+        <div class="shop-2">
+          <a href="../HTML/Checkoutpage.html"
+            ><img
+              src="../Images/addtoshopping.png"
+              alt="addshop-icon"
+              class="addtoshop-2"
+          /></a>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <section class="info">
+      <section class="address">
+        <img src="../Images/address.png" alt="address" />
+      </section>
+
+      <section class="p-1">
+        <p>Rainy Days</p>
+        <p>Rainy 38</p>
+        <p>500 Rain street</p>
+      </section>
+
+      <section class="Email">
+        <img src="../Images/Email.png" alt="Email" />
+      </section>
+
+      <section class="p-2">
+        <p>Rainydays@shop.com</p>
+      </section>
+
+      <section class="Facebook-icon">
+        <img
+          src="../Images/Facebook-icon.png"
+          alt="Facebook-icon"
+          class="tag-1"
+        />
+      </section>
+
+      <section class="Instagram-icon">
+        <img
+          src="../Images/Instagram-icon.png"
+          alt="Instagram-icon"
+          class="tag-1"
+        />
+      </section>
+    </section>
